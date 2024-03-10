@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shotcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {% block title %} {% endblock %}
+</head>
+<body>
+    <div class="container">
+
+        {% block body %} {% endblock %}
+
+    </div>
+
+</body>
+</html>
